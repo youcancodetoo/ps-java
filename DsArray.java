@@ -16,6 +16,9 @@ public class DsArray {
      * @param nums array of numbers
      * @param target the target sum of two numbers
      * @return array of two numbers whose sum is equal to target
+     * --
+     * Time complexity: O(n log(n)), contributed by sorting step
+     * Space complexity: O(1)
      */
     public int[] twoSumNumbers(int[] nums, int target) {
         // This is an inplace sort, so no need to assign it to a variable

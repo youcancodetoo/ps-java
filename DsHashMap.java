@@ -21,6 +21,9 @@ public class DsHashMap {
      * @param nums array of numbers
      * @param target the target sum of two numbers
      * @return array of two indexes for numbers whose sum is equal to target
+     * --
+     * Time complexity: O(n)
+     * Space complexity: O(n), for tracker HashMap
      */
     public int[] twoSum(int[] nums, int target) {
         // Create a HashMap to track
